@@ -13,6 +13,7 @@ API地址：https://imgapi.moeloli.cyou<br>
 Demo：<br>
 ```
 GET https://imgapi.moeloli.cyou?sort=random
+GET https://imgapi.moeloli.cyou?sort=cat&type=json
 ```
 #### 返回参数说明：
 | 传入type | 返回值 | Demo |
