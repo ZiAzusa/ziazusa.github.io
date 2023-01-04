@@ -32,7 +32,7 @@ type值为json：<br>
     "pic": "https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"
 }
 ```
-type值为其它：
+type值为其它或没有type：
 ```PHP
 header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg")
 ```
