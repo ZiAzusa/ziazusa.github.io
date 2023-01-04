@@ -9,6 +9,7 @@ API地址：https://imgapi.moeloli.cyou<br>
 | --- | --- | --- | --- | --- |
 | sort | 索引的图片集 | Text | random<br>cat<br>wh<br>mp<br>pc | 索引全部图片<br>索引兽耳图片<br>索引银发图片<br>索引竖屏壁纸<br>索引横屏壁纸 |
 | type | 输出方法(可选，默认为重定向) | Text | text<br>json | 输出文本<br>输出JSON格式 |
+
 Demo：<br>
 ```
 GET https://imgapi.moeloli.cyou?sort=random
@@ -19,6 +20,7 @@ GET https://imgapi.moeloli.cyou?sort=random
 | text | 图片URL |
 | json | {"pic": "图片URL"} |
 | 其它 | 重定向到图片URL |
+
 Demo：<br>
 ```
 text:
