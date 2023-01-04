@@ -15,12 +15,12 @@ GET https://imgapi.moeloli.cyou?sort=random
 ```
 #### 返回参数说明：
 | 传入type | 返回值 |
-| --- | --- | --- |
+| --- | --- |
 | text | 图片URL |
 | json | {"pic": "图片URL"} |
 | 其它 | 重定向到图片URL |
 Demo：<br>
-```JSON
+```
 text:
     https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg
 json:
