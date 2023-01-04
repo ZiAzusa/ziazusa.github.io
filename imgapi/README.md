@@ -1,5 +1,5 @@
 # MoeLoli随机图使用说明
-本随机图API基于[MirlKoi图库（R.I.P.）](https://iw233.cn)的公开数据打造<br>
+本随机图API基于[MirlKoi图库（R.I.P.）](https://iw233.cn)的公开数据打造，图片绿色健康，无NSFW内容<br>
 使用我自建的图床服务，避免了新浪图床报403的问题<br>
 ### 食用方法
 API地址：https://imgapi.moeloli.cyou<br>
