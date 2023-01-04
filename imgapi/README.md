@@ -22,17 +22,17 @@ GET https://imgapi.moeloli.cyou?sort=random
 | 其它 | 重定向到图片URL |
 
 Demo：<br>
-text：
+type值为text：<br>
 ```
 https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg
 ```
-json：
+type值为json：<br>
 ```JSON
 {
     "pic": "https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"
 }
 ```
-其它：
+type值为其它：
 ```PHP
 header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg")
 ```
