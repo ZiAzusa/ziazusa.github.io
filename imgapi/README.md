@@ -22,11 +22,17 @@ GET https://imgapi.moeloli.cyou?sort=random
 | 其它 | 重定向到图片URL |
 
 Demo：<br>
+text：
 ```
-text:
-    https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg
-json:
-    {"pic": "https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"}
-其它:
-    header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg")
+https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg
+```
+json：
+```JSON
+{
+    "pic": "https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"
+}
+```
+其它：
+```PHP
+header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg")
 ```
