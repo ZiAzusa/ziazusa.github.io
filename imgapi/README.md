@@ -17,6 +17,6 @@ GET https://imgapi.moeloli.cyou?sort=random
 #### 返回参数说明：
 | 传入type | 返回值 | Demo |
 | --- | --- | --- |
-| text | 图片URL | ```https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg ``` |
-| json | {"pic": "图片URL"} | ```JSON {"pic": "https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"} ``` |
-| 其它 | 重定向到图片URL | ```PHP header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg") ``` |
+| text | 图片URL | ```https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg``` |
+| json | {"pic": "图片URL"} | ```{"pic": "https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"}``` |
+| 其它 | 重定向到图片URL | ```header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg")``` |
