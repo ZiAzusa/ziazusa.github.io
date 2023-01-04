@@ -7,7 +7,7 @@ API地址：https://imgapi.moeloli.cyou<br>
 #### 传入参数说明：
 | 键 | 键描述 | 值类型 | 可用的值 | 值描述 |
 | --- | --- | --- | --- | --- |
-| sort | 索引的图片集 | Text | random<br>cat<br>wh<br>mp<br>pc | 索引全部图片<br>索引兽耳图片<br>索引银发图片<br>索引竖屏壁纸<br>索引横屏壁纸 |
+| sort | 索引的图片集 | Text | random<br>top<br>cat<br>yin<br>xing<br>mp<br>pc | 索引全部图片<br>索引精选图片<br>索引兽耳图片<br>索引银发图片<br>索引星空图片<br>索引竖屏壁纸<br>索引横屏壁纸 |
 | type | 输出方法(可选，默认为重定向) | Text | text<br>json | 输出文本<br>输出JSON格式 |
 
 Demo：<br>
