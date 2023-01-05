@@ -1,8 +1,8 @@
-# 随机二次元图片API使用说明
+# Nahida.Fun随机二次元图片API使用说明
 本随机图API基于[MirlKoi图库](https://iw233.cn)的公开数据打造，图片绿色健康，无NSFW内容<br>
 使用我自建的图床服务，避免了新浪图床报403的问题<br>
 ### 食用方法
-API地址：https://imgapi.moeloli.cyou<br>
+API地址：https://imgapi.nahida.fun<br>
 调用方法：GET<br>
 #### 传入参数说明：
 | 键 | 键描述 | 值类型 | 可用的值 | 值描述 |
@@ -13,10 +13,12 @@ API地址：https://imgapi.moeloli.cyou<br>
 
 Demo：<br>
 ```
-GET https://imgapi.moeloli.cyou?sort=random
-GET https://imgapi.moeloli.cyou?sort=cat&type=json
+GET https://imgapi.nahida.fun/?sort=random
+GET https://imgapi.nahida.fun/?sort=top&type=json
+GET https://imgapi.nahida.fun/?sort=cat&num=100
 ```
 #### 返回参数说明：
+注意：当携带num参数且num参数大于等于2时，API只会输出JSON格式
 | 传入type | 返回值 | Demo |
 | --- | --- | --- |
 | text | 图片URL | ```https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg``` |
