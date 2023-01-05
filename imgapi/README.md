@@ -21,6 +21,6 @@ GET https://imgapi.nahida.fun/?sort=cat&num=100
 注意：当携带num参数且num参数大于等于2时，API只会输出JSON格式
 | 传入type | 返回值 | Demo |
 | --- | --- | --- |
-| text | 图片URL | ```https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg``` |
-| json | {"pic": 图片URL(s)数组} | ```{"pic": ["https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"]}``` |
-| 其它 | 重定向到图片URL | ```header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg")``` |
+| text | 图片URL | https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg |
+| json | {"pic": 图片URL(s)数组} | {"pic": ["https:\/\/img.moeloli.cyou\/2023\/01\/02\/63b2fb7ed3537.jpg"]} |
+| 其它 | 重定向到图片URL | header("Location: https://img.moeloli.cyou/2023/01/02/63b2fb7ed3537.jpg") |
