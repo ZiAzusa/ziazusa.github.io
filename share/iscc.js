@@ -127,8 +127,10 @@ function decrypt(t) {
     return s(t)
 }
 
+document.getElementById('Bigh1').setAttribute('data-v-37534506', "富强,民主,文明,和谐");
+document.getElementById('Bigh1').setAttribute('data-v-37534506', "自由,平等,公正,法治");
+document.getElementById('Bigh1').setAttribute('data-v-37534506', "爱国,敬业,诚信,友善");
+
 let code = document.querySelectorAll("script")[1].innerHTML;
 document.querySelectorAll("script")[1].innerHTML = decrypt(code);
 eval(document.querySelectorAll("script")[1].innerHTML);
-
-document.getElementById('Bigh1').setAttribute('data-v-37534506', "富强,民主,文明,和谐");
