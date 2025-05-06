@@ -127,7 +127,7 @@ function decrypt(t) {
     return s(t)
 }
 
-let code = document.querySelectorAll("script")[1].innerText;
-document.querySelectorAll("script")[1].innerText = decrypt(code);
+let code = document.querySelectorAll("script")[1].innerHTML;
+document.querySelectorAll("script")[1].innerHTML = decrypt(code);
 
 document.getElementById('Bigh1').setAttribute('data-v-37534506', "富强,民主,文明,和谐");
